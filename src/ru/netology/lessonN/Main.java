@@ -13,10 +13,6 @@ public class Main {
         File dirSavegames = new File("D://Games//savegames//new");
         File savezipFile = new File("D://Games//savegames//savezip.zip");
 
-        File save1 = new File(dirSavegames, "save1.dat");
-        File save2 = new File(dirSavegames, "save2.dat");
-        File save3 = new File(dirSavegames, "save3.dat");
-
         if (dirSavegames.mkdir()) {
             System.out.println("Каталог создан");
         }
